@@ -11,6 +11,8 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+@property (nonatomic, readonly) UINavigationBar* backgroundColor;
 
 
 @end
